@@ -1,0 +1,68 @@
+{
+    "config": {
+        "webserver-station-mode":{
+            "help": "true=Staion, false=Accesspoint",
+            "value": true
+        },
+        "webserver-ip-address":{
+            "help": "IP Adresse des Webservers",
+            "value": "\"192.168.5.1\""
+        },
+        "webserver-netmask":{
+            "help": "Netzmaske des Webservers",
+            "value": "\"255.255.255.0\""
+        },
+        "webserver-port":{
+            "help": "Port des Webservers",
+            "value": 80
+        },
+        "wifi-scanap":{
+            "help": "Anzeigen von verfügbaren Netzwerken",
+            "value": false
+        },
+        "wifi-ssid":{
+            "help": "WiFi SSID",
+            "value": "\" \""
+        },
+        "wifi-password":{
+            "help": "WiFi Passwort",
+            "value": "\" \""
+        },
+
+
+
+
+
+        "debug":{
+            "help": "Print debug messages",
+            "value": false
+        },
+
+        "esp-pin-tx":{
+            "help": "Tx-Pin",
+            "value": "PB_10"
+        },
+        "esp-pin-rx":{
+            "help": "Rx-Pin",
+            "value": "PB_11"
+        },
+        "esp-pin-ch-pd":{
+            "help": "Ch_PD-Pin",
+            "value": "PB_13"
+        },
+        "esp-pin-rst":{
+            "help": "RST-Pin",
+            "value": "PB_12"
+        },
+        "esp-baudrate":{
+            "help": "baudrate ESP8266",
+            "value": 115200
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "esp8266.provide-default" : false
+        }
+    }
+}

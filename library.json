@@ -1,0 +1,12 @@
+{
+    "name": "ESP8266Webserver",
+    "version": "1.0.0",
+    "description": "ESP8266 Webserver Lib",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TGmuk/MBED-ESP8266_WebServer"
+    },
+    "frameworks": "mbed",
+    "platforms": "ststm32"
+  
+}
