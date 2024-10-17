@@ -1,7 +1,7 @@
 {
     "config": {
         "webserver-station-mode":{
-            "help": "true=Staion, false=Accesspoint",
+            "help": "true=Station, false=Accesspoint",
             "value": true
         },
         "webserver-ip-address":{
