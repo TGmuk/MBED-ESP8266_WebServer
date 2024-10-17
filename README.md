@@ -5,7 +5,7 @@
 This library is for using a STM32 microcontroller as a webserver
 
 ### Configuration
-For the configuration, you must copy the [mbed_app.json](mbed_app.json) file to the same directory as the platformio.ini file. 
+For the configuration, you must copy the [mbed_app.json](mbed_app.json) file to the same directory as the `platformio.ini` file. 
 Note that for strings the string, the string must be contained by `\"` (e.g. `"\"myString\""`).
 
 
