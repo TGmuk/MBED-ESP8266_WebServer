@@ -39,11 +39,11 @@
         },
 
         "esp-pin-tx":{
-            "help": "Tx-Pin",
+            "help": "Tx-Pin (Or maybe Rx-Pin)",
             "value": "PB_10"
         },
         "esp-pin-rx":{
-            "help": "Rx-Pin",
+            "help": "Rx-Pin (Or maybe Tx-Pin)",
             "value": "PB_11"
         },
         "esp-pin-ch-pd":{
@@ -62,7 +62,8 @@
     "target_overrides": {
         "*": {
             "platform.stdio-convert-newlines": true,
-            "esp8266.provide-default" : false
+            "esp8266.provide-default" : false,
+            "target.printf_lib": "std"
         }
     }
 }
